@@ -16,7 +16,7 @@ setup(
     description="EAvatar Sample Package.",
     include_package_data=True,
     zip_safe=True,
-    packages=find_packages(),
+    packages=find_packages(exclude=['tests']),
     namespace_packages=['eavatar', 'eavatar.ext'],
 
     entry_points={
